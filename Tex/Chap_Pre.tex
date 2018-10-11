@@ -1,0 +1,47 @@
+\chapter{抽象空间}\label{chap:introduction}
+
+\section{引言}
+
+\section{赋范空间}
+设$X$是数域$K$上的向量空间($K=R$或$C$)，若对每个$x\in X$指定一个实数$||x||$，称为x的范数，其满足以下范数公理。
+\indent
+\begin{description}
+	\item[($N_1$)] 齐次性     \quad\qquad $||ax||=|a|\cdot||x||\quad a\in K$
+	\item[($N_2$)] 三角不等式 \quad $||x+y|| \leq ||x|| + ||y||$
+	\item[($N_3$)] 正定性     \quad\qquad $||x||\geq 0,\quad ||x||=0 \leftrightarrow  ||x||=0$
+\end{description}
+则称X为K上的赋范向量空间，简称赋范空间。
+
+\noindent 注：
+\begin{description}
+	\item[1] 如K=R，称为实赋范空间，如K=C，则称为复赋范空间。
+    \item[2] description
+    \begin{description}
+    	\item[a.] 称$|x| = \sqrt{\sum_i |x_i|^2}$称为Euclid范数，常用于解释赋范空间的模型。
+    	\item[b.] 一般范数无具体计算公式，其本质在于范数公理，正是舍弃了特殊的表达式，才得到了具有高度抽象性的赋范空间理论。
+    	\item[c.] 一旦将赋范空间理论应用于某个特定空间，就必须选择适当的范数公式。
+    \end{description}
+\end{description}
+
+
+\noindent 
+例：{\heiti 有界函数空间$B(\Omega)$}
+
+设$\Omega$是任一非空集合，$B(\Omega)$是定义在$\Omega$上的有界实（复）函数之全体。其显然是一实（复）向量空间。
+任给$\mu\in B(\Omega)$，令
+$$||\mu||_0 =  \sup_{x\in\Omega} |\mu(x)|$$
+\noindent 验证：
+\begin{description}
+	\item[$1^0$] 齐次性
+	  $$||a\mu||_0 =  \sup_{x\in\Omega} |a\mu(x)|$$
+	\item[$2^0$] 三角不等式
+%	\begin{split}
+		
+%	\end{split}
+	\item[$3^0$] 正定性
+\end{description}
+\section{Banach空间}
+
+\section{常用函数空间}
+
+\section{内积空间与Hilbert空间}
