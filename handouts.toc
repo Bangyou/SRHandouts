@@ -16,13 +16,13 @@
 \contentsline {subsection}{\numberline {2.1.4}$\ell _1$范数最小化与线性规划的等价性}{13}{subsection.2.1.4}
 \contentsline {section}{\numberline {2.2}含噪稀疏复原}{14}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}两种特例情况下的LASSO问题的几何解释}{15}{subsection.2.2.1}
-\contentsline {section}{\numberline {2.3}稀疏复原的统计学视角}{15}{section.2.3}
-\contentsline {part}{第三部分\hspace {1em}稀疏表示：在图像处理中的应用}{16}{part.3}
-\contentsline {part}{第四部分\hspace {1em}稀疏表示：\\在图像分类中的应用}{17}{part.4}
-\contentsline {part}{第五部分\hspace {1em}附录：相关预备知识}{18}{part.5}
-\contentsline {chapter}{\numberline {第3章\hspace {.3em}}抽象空间}{19}{chapter.3}
-\contentsline {section}{\numberline {3.1}引言}{19}{section.3.1}
-\contentsline {section}{\numberline {3.2}赋范空间}{19}{section.3.2}
-\contentsline {section}{\numberline {3.3}Banach空间}{20}{section.3.3}
-\contentsline {section}{\numberline {3.4}常用函数空间}{20}{section.3.4}
-\contentsline {section}{\numberline {3.5}内积空间与Hilbert空间}{20}{section.3.5}
+\contentsline {section}{\numberline {2.3}稀疏复原的统计学视角}{16}{section.2.3}
+\contentsline {part}{第三部分\hspace {1em}稀疏表示：在图像处理中的应用}{17}{part.3}
+\contentsline {part}{第四部分\hspace {1em}稀疏表示：\\在图像分类中的应用}{18}{part.4}
+\contentsline {part}{第五部分\hspace {1em}附录：相关预备知识}{19}{part.5}
+\contentsline {chapter}{\numberline {第3章\hspace {.3em}}抽象空间}{20}{chapter.3}
+\contentsline {section}{\numberline {3.1}引言}{20}{section.3.1}
+\contentsline {section}{\numberline {3.2}赋范空间}{20}{section.3.2}
+\contentsline {section}{\numberline {3.3}Banach空间}{21}{section.3.3}
+\contentsline {section}{\numberline {3.4}常用函数空间}{21}{section.3.4}
+\contentsline {section}{\numberline {3.5}内积空间与Hilbert空间}{21}{section.3.5}

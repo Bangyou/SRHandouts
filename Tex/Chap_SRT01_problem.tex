@@ -115,30 +115,30 @@ $$ A(\alpha x_1+(1-\alpha) x_2) = \alpha Ax_1 +(1-\alpha)Ax_2 = \alpha y+ (1-\al
 {\heiti 求解问题$ (P_2) $可利用拉格朗日法。}
 
 定义拉格朗日公式：
-\begin{equation}%\label{key}
+\begin{equation*}%\label{key}
 \mathcal{L}(x)= \Vert x \Vert_2^2 + \lambda^{T}(y-Ax)
-\end{equation}
+\end{equation*}
 
 这里$\lambda$为一m维向量，其约束集合所对应的拉格朗日乘子。将上式两边对$ \lambda $求导可得:：
-\begin{equation}\label{key}
+\begin{equation*}\label{key}
 \frac{\partial \mathcal{L}(x)}{\partial\lambda}= 2 x  +A^{T}\lambda 
-\end{equation}
+\end{equation*}
 
 令其等于0，即为上式的最优化条件。可得到唯一最优解如下：
-\begin{equation}\label{chap_srt01_x_l2opt}
+\begin{equation*}\label{chap_srt01_x_l2opt}
 x^*= -\frac{1}{2} A^T \lambda
-\end{equation}
+\end{equation*}
 
 因为$ x^* $必须满足约束条件$y= Ax$，将这个解带入约束条件，可得$ \lambda = -2(AA^T)^{-1}y $，即：
-\begin{equation}\label{key}
+\begin{equation*}\label{key}
 Ax* = -\frac{1}{2} A A^T \lambda = y  \Longrightarrow
 \lambda = -2(AA^T)^{-1}y 
-\end{equation}
+\end{equation*}
 
 再将该结果带入式(\ref{chap_srt01_x_l2opt})，就可以得到常见的闭合形式的解析解：
-\begin{equation}\label{key}
+\begin{equation*}\label{key}
 x^* = -\frac{1}{2} A^T \lambda = A^{T}(AA^T)^{-1}b  = A^{+}b
-\end{equation}
+\end{equation*}
 
 当A的列数比行数多时，这个解被称为$ y=Ax $的伪逆解，这里要假定A是满秩的，即所有的行都是线性独立的。然而$\Vert x\Vert_2^2  $目标函数具有一个严重的缺陷，其最优解不是稀疏的，无法再稀疏信号复原中成为一个很好的近似方法。
 
@@ -175,9 +175,9 @@ x^* = -\frac{1}{2} A^T \lambda = A^{T}(AA^T)^{-1}b  = A^{+}b
 {\heiti 问题$ (P_1) $可以转化为线性规划问题，后者作为优化问题已得到深入研究并具有高效的求解方法。}
 
 事实上，引入新的非负变量$ u,v\in \mathbb{R}^n $，使得$ x =u-v $，其中，仅对$ x $的正值元素，有$ u_i $非0，其他元为0；对$ x $的负值元素，有$ v_i $非0，其他元为0。令$ z=[u^T,v^T]\in\mathbb{R}^{2n} $，可以得到：
-\begin{equation}\label{key}
+\begin{equation*}\label{key}
 \Vert x\Vert_1 = \sum_{i}^{2n}z_i
-\end{equation}
+\end{equation*}
 
 同时又有，$ Ax=A(u-v)=[A,-A]z $。那么问题$ (P_1) $等价于下面的线性规划$ (LP) $问题：
 \begin{equation}\label{key}
@@ -214,9 +214,9 @@ x^* = -\frac{1}{2} A^T \lambda = A^{T}(AA^T)^{-1}b  = A^{+}b
 \end{equation}
 
 上述约束也可修改为$ \ell_2 $范数平方的约束，即$ \Vert y-Ax\Vert_2^2<v $，其中$ v=\varepsilon^2 $，这时问题可以写作：
-\begin{equation}\label{key}
+\begin{equation*}\label{key}
 (p_{1}^{\epsilon}):\qquad \min_{x}\Vert x\Vert_1\quad s.t.\quad\Vert y-Ax\Vert_2^2\leq v
-\end{equation}
+\end{equation*}
 
 利用恰当的拉格朗日乘子$ \lambda $，可以将上述问题转化为一个无约束的最小化问题：
 \begin{equation}\label{key}
@@ -224,7 +224,7 @@ x^* = -\frac{1}{2} A^T \lambda = A^{T}(AA^T)^{-1}b  = A^{+}b
 \end{equation}
 
 或者，对于某些前档的参数$ t(\varepsilon) $，可简写为$ t $，同样的问题可写作：
-\begin{equation}\label{chapsrt01:p1t}
+\begin{equation}\label{formula:chapsrt01:p1t}
 (p_{1}^{t}):\qquad \min_{x} \dfrac{1}{2}\Vert y-Ax\Vert_2^2 \quad s.t.\quad \Vert x\Vert_1 \leq t
 \end{equation}
 
@@ -248,7 +248,7 @@ x^* = -\frac{1}{2} A^T \lambda = A^{T}(AA^T)^{-1}b  = A^{+}b
 
 在这两种情况下，$ \ell_1 $范数约束为具有“尖锐边缘”的菱形区域，其中，尖锐边缘对应着稀疏可行解。而上式中二次函数的水平集具有不同的形状，依赖于变量数量$ n $，是否超过观测数量$ m $。
 
-在低维情况下，当$ n\leq m $时，只要矩阵A是列满秩的，即其列为线性独立的，那么式\ref{chapsrt01:p1t}中的二次目标函数具有唯一最小值解$ \hat{x} =(A^TA)^{-1}A^T y $。
+在低维情况下，当$ n\leq m $时，只要矩阵A是列满秩的，即其列为线性独立的，那么式\ref{formula:chapsrt01:p1t}中的二次目标函数具有唯一最小值解$ \hat{x} =(A^TA)^{-1}A^T y $。
 
 验证过程如下：
 \begin{equation*}\label{key}
@@ -269,8 +269,26 @@ $$   OLS:\qquad  \min_{x}  \Vert y-Ax \Vert^2_2$$
 
 (b) $m<n $，高维情况
 
+当$ m<n $时，A为行满秩矩阵，线性系统$ y=Ax $总是存在一个解，如问题$ P_{2} $的最小$ \ell_2 $范数解$\hat{x}=A^T (AA^T)^{-1}y $，即当列数大于行数的情况下$ y=Ax $的伪逆。
 
+而且，存在无穷多个具有形式为$ \hat{x} +z $的解，其中$ z\in N(A) $，$ N(A) $为A的零空间，即空间中所有点集均使得$ Az=0 $，因此$ A(\hat{x}+z)=A\hat{x} =y$。所有这些解形成了一个超平面$ y=Ax $，与目标函数最小值的水平集相对应，即$ \Vert y-Ax\Vert_2^2 =0$。另一水平集$\Vert y-Ax\Vert_2^2 =const$与平行于$ Ax=y $的两个超平面相对应，这两个超平面与$ Ax=y $距离相等。
+
+
+令$ t_0 =\min_{z\in N(A)} \Vert \hat{x}+z\Vert_1 $为线性系统$ y=Ax $的解（{\color{red} 或$ m\geq n $情况下的单一解}）达到的最小$ \ell_1 $范数。假定在式(\ref{formula:chapsrt01:p1t})中有$ t<t_0 $，{\color{red} 否则$ \ell_1 $范数约束是无意义的，即$ LASSO $问题变成无约束的普通最小二乘问题。}
+那么，最小二乘解位于可行区域之外，式(\ref{formula:chapsrt01:p1t})的任意解$ x^* $必须为该区域的边界，即目标函数的水平集首先与可行区域相交，这意味着$ \Vert x\Vert_1 =t$。注意到菱形的可行区域$ \Vert x\Vert_1 <t $倾向于在菱形区域的最高点与二次函数相交，这在二维情况下很容易看到，在多维情况下也是如此，与稀疏解相对应。这个例子论证了对$ \ell_1 $范数约束强化稀疏性背后的直观理解，与不含噪声稀疏复原问题相似。
+
+
+上面讨论的$ LASSO $问题的解现在可以总结如下：
+\begin{theorem}[Osborne et al., 2000b]\quad\par
+\begin{enumerate}
+	\item 如果$ m\geq n$(样本数量比未知参数多)，那么式\ref{formula:chapsrt01:p1t}中的$ LASSO$ 问题具有唯一解$ x^*$，且$ \Vert x^*\Vert_1 =t $。
+	\item 如果$ m<n $(样本数量比未知参数少)，那么$ LASSO $问题的解存在，且对于任意解有$ \Vert x^*\Vert_1 =t $。
+	\item 如果$ x_1^* $和$ x_2^* $均为$ LASSO $问题的解，那么他们的凸组合$\alpha x_1^* +(1-\alpha)x_2^* $也为其解，其中$ 0\leq x\leq 1 $。
+\end{enumerate}
+\end{theorem}
 
 
 \section{稀疏复原的统计学视角}
+
+
 
