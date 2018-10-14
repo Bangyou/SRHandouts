@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.23)  11 OCT 2018 16:41
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.28)  14 OCT 2018 00:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1355,20 +1355,16 @@ LaTeX Info: Redefining \not on input line 2146.
 .  
 . - 'normal' (m/n) with NFSS spec.: <->"Times New
 . Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'small caps'  (m/sc) with NFSS spec.: <->"Times New
-. Roman/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. - 'small caps'  (m/sc) with NFSS spec.: 
 . - 'bold' (bx/n) with NFSS spec.: <->"Times New
 . Roman/B/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.: <->"Times New
-. Roman/B/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: 
 . - 'italic' (m/it) with NFSS spec.: <->"Times New
 . Roman/I/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.: <->"Times New
-. Roman/I/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.: 
 . - 'bold italic' (bx/it) with NFSS spec.: <->"Times New
 . Roman/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: <->"Times New
-. Roman/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 LaTeX Info: Redefining \rmfamily on input line 237.
 .................................................
@@ -1381,20 +1377,16 @@ LaTeX Info: Redefining \rmfamily on input line 237.
 .  
 . - 'normal' (m/n) with NFSS spec.: <->"Times New
 . Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'small caps'  (m/sc) with NFSS spec.: <->"Times New
-. Roman/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. - 'small caps'  (m/sc) with NFSS spec.: 
 . - 'bold' (bx/n) with NFSS spec.: <->"Times New
 . Roman/B/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.: <->"Times New
-. Roman/B/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: 
 . - 'italic' (m/it) with NFSS spec.: <->"Times New
 . Roman/I/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.: <->"Times New
-. Roman/I/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.: 
 . - 'bold italic' (bx/it) with NFSS spec.: <->"Times New
 . Roman/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: <->"Times New
-. Roman/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 LaTeX Info: Redefining \sffamily on input line 238.
 (c:/texlive/2018/texmf-dist/tex/latex/natbib/natbib.sty
@@ -2712,10 +2704,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 40009 strings out of 492970
- 808335 string characters out of 6137298
- 847651 words of memory out of 5000000
- 43370 multiletter control sequences out of 15000+600000
+ 39999 strings out of 492970
+ 807904 string characters out of 6137298
+ 847309 words of memory out of 5000000
+ 43358 multiletter control sequences out of 15000+600000
  579318 words of font info for 150 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,12n,94p,10497b,601s stack positions out of 5000i,500n,10000p,200000b,80000s
