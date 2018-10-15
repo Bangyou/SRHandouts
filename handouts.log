@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.28)  14 OCT 2018 23:09
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.23)  15 OCT 2018 16:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1355,16 +1355,20 @@ LaTeX Info: Redefining \not on input line 2146.
 .  
 . - 'normal' (m/n) with NFSS spec.: <->"Times New
 . Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'small caps'  (m/sc) with NFSS spec.: 
+. - 'small caps'  (m/sc) with NFSS spec.: <->"Times New
+. Roman/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
 . - 'bold' (bx/n) with NFSS spec.: <->"Times New
 . Roman/B/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.: 
+. - 'bold small caps'  (bx/sc) with NFSS spec.: <->"Times New
+. Roman/B/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
 . - 'italic' (m/it) with NFSS spec.: <->"Times New
 . Roman/I/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.: 
+. - 'italic small caps'  (m/itsc) with NFSS spec.: <->"Times New
+. Roman/I/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
 . - 'bold italic' (bx/it) with NFSS spec.: <->"Times New
 . Roman/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: <->"Times New
+. Roman/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
 .................................................
 LaTeX Info: Redefining \rmfamily on input line 237.
 .................................................
@@ -1377,16 +1381,20 @@ LaTeX Info: Redefining \rmfamily on input line 237.
 .  
 . - 'normal' (m/n) with NFSS spec.: <->"Times New
 . Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'small caps'  (m/sc) with NFSS spec.: 
+. - 'small caps'  (m/sc) with NFSS spec.: <->"Times New
+. Roman/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
 . - 'bold' (bx/n) with NFSS spec.: <->"Times New
 . Roman/B/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.: 
+. - 'bold small caps'  (bx/sc) with NFSS spec.: <->"Times New
+. Roman/B/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
 . - 'italic' (m/it) with NFSS spec.: <->"Times New
 . Roman/I/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.: 
+. - 'italic small caps'  (m/itsc) with NFSS spec.: <->"Times New
+. Roman/I/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
 . - 'bold italic' (bx/it) with NFSS spec.: <->"Times New
 . Roman/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: <->"Times New
+. Roman/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
 .................................................
 LaTeX Info: Redefining \sffamily on input line 238.
 (c:/texlive/2018/texmf-dist/tex/latex/natbib/natbib.sty
@@ -2296,6 +2304,21 @@ LaTeX Warning: Label `key' multiply defined.
 LaTeX Warning: Label `key' multiply defined.
 
 
+LaTeX Warning: Label `key' multiply defined.
+
+
+LaTeX Warning: Label `key' multiply defined.
+
+
+LaTeX Warning: Label `key' multiply defined.
+
+
+LaTeX Warning: Label `key' multiply defined.
+
+
+LaTeX Warning: Label `key' multiply defined.
+
+
 LaTeX Warning: Label `chap:introduction' multiply defined.
 
 )
@@ -2511,11 +2534,11 @@ LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <7.52812> not available
 LaTeX Font Info:    Font shape `TU/entextrm/m/sl' in size <12.045> not availabl
 e
 (Font)              Font shape `TU/entextrm/m/it' tried instead on input line 2
-3.
+7.
 LaTeX Font Info:    Font shape `TU/SimSun(1)/m/sl' in size <12.045> not availab
 le
 (Font)              Font shape `TU/SimSun(1)/m/it' tried instead on input line 
-23.
+27.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.45398pt.
@@ -2663,22 +2686,33 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 174.
 
-[13] [14] [15]) [16] [17
+[13] [14] [15] [16]
+Overfull \hbox (0.19283pt too wide) in paragraph at lines 324--326
+\TU/SimSun(1)/m/n/12.045 注 意，|  学 习 问 题 的 $\OML/ntxmi/m/it/12.045 MAP$ \TU/SimS
+un(1)/m/n/12.045 表 述 产 生 了 上 述 正 则 损 失 最 小 化 问 题，|  损 失 函 数 $\OML/ntxmi/m/it/12
+.045 L\OT1/cmr/m/n/12.045 (\OML/ntxmi/m/it/12.045 Z; x\OT1/cmr/m/n/12.045 ) =
+ []
+
+[17]) (./Tex/Chap_SRT02_theory.tex [18]
+第3章
+) [19
+
+] [20
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\\' on input line 20.
 
-[18
+[21
 
-] [19
+] [22
 
 ] (./Tex/Chap_Pre.tex
-第3章
-)) [20
+第4章
+)) [23
 
-] [21]
+] [24]
 
 Package caption Warning: Unused \captionsetup[bi-first] on input line 40.
 See the caption package documentation for explanation.
@@ -2693,7 +2727,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 127.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
 Package rerunfilecheck Info: File `handouts.out' has not changed.
-(rerunfilecheck)             Checksum: F850E7DF1258FE848ED3521938EE242E.
+(rerunfilecheck)             Checksum: EE71BD38856F52469A9779F3BB014DF8.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2704,12 +2738,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 40022 strings out of 492970
- 809324 string characters out of 6137298
- 847312 words of memory out of 5000000
- 43380 multiletter control sequences out of 15000+600000
+ 40050 strings out of 492970
+ 810731 string characters out of 6137298
+ 848678 words of memory out of 5000000
+ 43407 multiletter control sequences out of 15000+600000
  579326 words of font info for 151 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,12n,94p,10497b,601s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on handouts.pdf (23 pages).
+Output written on handouts.pdf (26 pages).
