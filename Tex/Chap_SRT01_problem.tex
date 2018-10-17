@@ -287,6 +287,13 @@ $$   OLS:\qquad  \min_{x}  \Vert y-Ax \Vert^2_2$$
 \end{enumerate}
 \end{theorem}
 
+\begin{lemma}[最优性条件]
+向量$ \hat{x}\in\mathbb{R}^n $为$ LASSO $问题$ (P_1^{\lambda}) $的解，当且仅当下面的条件对$ i\in \{1,2,\cdots,n\} $均满足：
+\[ \alpha^T_i(y-A\hat{x}) = \alpha sgn(\hat{x}_i)\qquad \mbox{若}\hat{x}_i\neq 0\]
+\[ |\alpha^T_i(y-A\hat{x})|\leq \lambda \qquad\qquad \mbox{若}\hat{x}_i= 0 \]
+其中$ \alpha_i $为矩阵A的第i列。
+\end{lemma}
+
 
 \section{稀疏复原的统计学视角}
 
