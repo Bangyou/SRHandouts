@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.23)  17 OCT 2018 22:16
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.28)  17 OCT 2018 22:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1355,20 +1355,16 @@ LaTeX Info: Redefining \not on input line 2146.
 .  
 . - 'normal' (m/n) with NFSS spec.: <->"Times New
 . Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'small caps'  (m/sc) with NFSS spec.: <->"Times New
-. Roman/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. - 'small caps'  (m/sc) with NFSS spec.: 
 . - 'bold' (bx/n) with NFSS spec.: <->"Times New
 . Roman/B/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.: <->"Times New
-. Roman/B/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: 
 . - 'italic' (m/it) with NFSS spec.: <->"Times New
 . Roman/I/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.: <->"Times New
-. Roman/I/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.: 
 . - 'bold italic' (bx/it) with NFSS spec.: <->"Times New
 . Roman/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: <->"Times New
-. Roman/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 LaTeX Info: Redefining \rmfamily on input line 237.
 .................................................
@@ -1381,20 +1377,16 @@ LaTeX Info: Redefining \rmfamily on input line 237.
 .  
 . - 'normal' (m/n) with NFSS spec.: <->"Times New
 . Roman/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'small caps'  (m/sc) with NFSS spec.: <->"Times New
-. Roman/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. - 'small caps'  (m/sc) with NFSS spec.: 
 . - 'bold' (bx/n) with NFSS spec.: <->"Times New
 . Roman/B/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.: <->"Times New
-. Roman/B/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: 
 . - 'italic' (m/it) with NFSS spec.: <->"Times New
 . Roman/I/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.: <->"Times New
-. Roman/I/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.: 
 . - 'bold italic' (bx/it) with NFSS spec.: <->"Times New
 . Roman/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: <->"Times New
-. Roman/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 LaTeX Info: Redefining \sffamily on input line 238.
 (c:/texlive/2018/texmf-dist/tex/latex/natbib/natbib.sty
@@ -2227,101 +2219,7 @@ Package: xeCJK-listings 2018/04/07 v3.7.0 xeCJK patch file for listings
 \l__xeCJK_listings_max_char_int=\count346
 \l__xeCJK_listings_flag_int=\count347
 )
-(./handouts.aux
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-
-LaTeX Warning: Label `key' multiply defined.
-
-)
+(./handouts.aux)
 \openout1 = `handouts.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 93.
@@ -2565,15 +2463,8 @@ less on input line 112.
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 112.
 
-(./Tex/Mainmatter.tex (./Tex/Chap_Intro.tex
+(./Tex/Mainmatter.tex (./Tex/Chap_Pre.tex
 第1章
-[1
-
-
-]
-File: Img/Chap_Intro/fig1_1.jpg Graphic file (type bmp)
-<Img/Chap_Intro/fig1_1.jpg>
- [2]
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -2600,122 +2491,30 @@ File: Img/Chap_Intro/fig1_1.jpg Graphic file (type bmp)
 . - 'normal' (m/n) with NFSS spec.: <->"SimHei/OT:script=hani;language=DFLT;"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
- [3] [4]) [5]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 10.
-
-[6
-
-] (./Tex/Chap_SRT01_problem.tex
-第2章
-[7
-
-] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
-
- []
+)) [1
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
-
- []
-
-[9]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 99.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 99.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 99.
-
-[10]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 145.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\ell' on input line 145.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 145.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 145.
-
-[11]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 174.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\ell' on input line 174.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 174.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 174.
-
-[12] [13] [14] [15] [16]
-Overfull \hbox (0.19283pt too wide) in paragraph at lines 331--333
-\TU/SimSun(1)/m/n/12.045 注 意，|  学 习 问 题 的 $\OML/ntxmi/m/it/12.045 MAP$ \TU/SimS
-un(1)/m/n/12.045 表 述 产 生 了 上 述 正 则 损 失 最 小 化 问 题，|  损 失 函 数 $\OML/ntxmi/m/it/12
-.045 L\OT1/cmr/m/n/12.045 (\OML/ntxmi/m/it/12.045 Z; x\OT1/cmr/m/n/12.045 ) =
- []
-
-) (./Tex/Chap_SRT02_theory.tex [17]
-第3章
-)) [18
-
-]
-
-Package caption Warning: Unused \captionsetup[bi-first] on input line 40.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: Unused \captionsetup[bi-second] on input line 40.
-See the caption package documentation for explanation.
-
+] [2]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
-(./handouts.aux)
+ (./handouts.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 127.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
 Package rerunfilecheck Info: File `handouts.out' has not changed.
-(rerunfilecheck)             Checksum: D22C6116D3C9B8B1017FBAE795E2C67E.
+(rerunfilecheck)             Checksum: 3DE6B410E036BCC80C8A0D93DBB9CE6C.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.47188pt have occurred.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 40054 strings out of 492970
- 811300 string characters out of 6137298
- 848675 words of memory out of 5000000
- 43414 multiletter control sequences out of 15000+600000
- 579326 words of font info for 151 fonts, out of 8000000 for 9000
+ 39729 strings out of 492970
+ 792500 string characters out of 6137298
+ 844066 words of memory out of 5000000
+ 43107 multiletter control sequences out of 15000+600000
+ 579262 words of font info for 143 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,12n,94p,10497b,601s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,11n,94p,10497b,375s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on handouts.pdf (19 pages).
+Output written on handouts.pdf (3 pages).
