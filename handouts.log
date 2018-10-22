@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.23)  18 OCT 2018 16:32
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.9.23)  22 OCT 2018 17:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2309,6 +2309,12 @@ LaTeX Warning: Label `key' multiply defined.
 
 LaTeX Warning: Label `key' multiply defined.
 
+
+LaTeX Warning: Label `key' multiply defined.
+
+
+LaTeX Warning: Label `key' multiply defined.
+
 )
 \openout1 = `handouts.aux'.
 
@@ -2678,10 +2684,10 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  39935 strings out of 492970
  805174 string characters out of 6137298
- 848611 words of memory out of 5000000
+ 848610 words of memory out of 5000000
  43309 multiletter control sequences out of 15000+600000
  579286 words of font info for 146 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,12n,94p,10497b,599s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,16n,94p,10497b,599s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on handouts.pdf (13 pages).

@@ -331,25 +331,42 @@ $$   OLS:\qquad  \min_{x}  \Vert y-Ax \Vert^2_2$$
 \end{equation}
 注意，学习问题的$ MAP $表述产生了上述正则损失最小化问题，损失函数$ L(Z,x)=-\log P(Z|x) $的值越小，模型的似然越高，即对数据的拟合度越好。正则函数$ R(x,\lambda)=-\log P(x|\lambda) $由模型参数的先验确定。
 
-
-
 从数据中学习统计模型的MAP方法产生了广泛的问题表述。例如，含噪稀疏复原问题$ (P_1) $，即$ \ell_1$正则平方和损失最小化，也成为稀疏线性回归，可以看做$ MAP $方法中具有线性高斯观测与参数的拉普拉斯先验情况下的特例。
+
 
 换言之，假定y的元素为独立同分布的随机变量，服从高斯分布，即
 \begin{equation}\label{key}
 N_{\mu,\sigma}(z)=\dfrac{1}{\sqrt{2\pi }\sigma}e^{-\frac{1}{2}(z-\mu)^2}
 \end{equation}
 
-当标准差$\sigm =1 $且均值$ \mu =\alpha_i X$($  $)
+当标准差$\sigma =1 $且均值$ \mu =\alpha_i x$($\alpha_i$为矩阵$ A $的第$ i $行)时。
+\[  P(y_i|\alpha_i x)= \dfrac{1}{\sqrt{2\pi}}e^{-\frac{1}{2}(y_i-\alpha_i)^2}   \]
+
+假定上述模型的参数$ x $固定，那么数据$ Z=(A,y) $的似然比为$ P(A,y|x)=P(y|Ax)P(A) $。因此，负对数似然损失函数可以写作：
+\begin{equation}\label{key}
+\begin{split}
+L(y,A,x) &= -\log P(y|Ax) - \log P(A) \\
+         &= -\log \prod_{i=1}^{m}P(y_i|\alpha_i x) -\log P(A)\\
+         &= \dfrac{1}{2}\sum_{i=1}^{m}(y_i-\alpha_i x)^2 +const
+\end{split}
+\end{equation}
+
+其中$const=\log \sqrt{2\pi}-\log P(A)$并不依赖于$ x $，因此可以从上式中的目标函数中省略。由y的线性高斯假设可以到处平方和损失函数，即：
+\begin{equation*}\label{key}
+L(y,A,x)  = \dfrac{1}{2}\sum_{i=1}^{m}(y_i-\alpha_i x)^2 = \dfrac{1}{2}\Vert y-Ax\Vert_2^2
+\end{equation*}
+
+
+\subsection{参数$ x_i $服从参数为$ \lambda $拉普拉斯先验}
+下面假设参数$ x_i $服从参数为$ \lambda $拉普拉斯先验，其中$ i=1,\cdots,n $为独立同分布随机变量，即：
+\begin{equation}\label{key}
+p(z) = \dfrac{\lambda}{2}e^{-\lambda|z|}
+\end{equation}
+
+下图显示了当$ \lambda $取不同值时的拉普拉斯分布的例子。注意当$ \lambda $增加时，接近于0的值会被赋予更高的概率权重
 
 
 
-
-
-
-
-
-ZZ
 
 
 
