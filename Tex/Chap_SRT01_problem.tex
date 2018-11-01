@@ -413,7 +413,26 @@ R(x,\lambda) = \lambda\sum_i^n |x_i| = \Vert x\Vert_1
 
 \section{扩展$ LASSO $:其他损失函数与正则函数}
 
+稀疏线性回归只是论证正则对数似然最大化的一个例子。这里只是简要介绍了几种常用的对数似然损失函数和正则函数。
+下图对这些对数似然函数和正则函数进行了总结。
 
+
+\begin{enumerate}
+	\item 稀疏广义线性回归
+	\begin{itemize}
+		\item 若对古典线性回归进行扩展，一个最自然的方法就是扩展源来标准高斯噪声假定，将其扩展为一般类型的
+		      指数族噪声分布。
+	\end{itemize}
+	\item 稀疏高斯马尔科夫随机场
+	\begin{itemize}
+		\item 另一种常用的数据分布类型为多元高斯分布，其对数似然在学习稀疏高斯马尔科夫网络的研究中会涉及，所
+		      以称为稀疏高斯马尔可夫随机场。该领域在最近的机器学习和统计学文献中受到广泛关注。
+	\end{itemize}
+	\item 扩展$ \ell_1 $正则函数
+	\begin{itemize}
+		\item 有多中类型的正则函数扩展了$ \ell_1 $范数，并用于不同的问题中。
+	\end{itemize}
+\end{enumerate}
 
 
 
