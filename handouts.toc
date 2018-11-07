@@ -15,3 +15,8 @@
 \contentsline {section}{\numberline {2.3}稀疏表示问题的求解}{14}{section.2.3}
 \contentsline {section}{\numberline {2.4}稀疏表示求解算法的理论分析}{14}{section.2.4}
 \contentsline {section}{\numberline {2.5}基于卷积神经网络的稀疏建模介绍}{14}{section.2.5}
+\contentsline {chapter}{\numberline {第3章\hspace {.3em}}稀疏复原问题的算法}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}前言}{15}{section.3.1}
+\contentsline {section}{\numberline {3.2}一元阈值是正交设计的最优方法}{15}{section.3.2}
+\contentsline {section}{\numberline {3.3}求解$ \ell _0 $范数最小化的算法}{16}{section.3.3}
+\contentsline {section}{\numberline {3.4}用于$ \ell _1 $范数最小化的算法}{16}{section.3.4}

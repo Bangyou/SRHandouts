@@ -1,13 +1,34 @@
 \chapter{稀疏复原问题的算法}\label{chap:srt03:algorithms}
+
 \section{前言}
+ 
+本章将对几种 常用的稀疏信号复原算法，如贪婪算法、有效集方法（如LARS算法）、块坐标下降、迭代阈值与近端法等进行总结。主要针对前面介绍的含噪稀疏复原问题，即最终不易处理的$ \ell_0 $范数最小化问题。
+\begin{equation}\label{key}
+(p_{0}^{\epsilon}):\qquad \min_{x}\Vert x\Vert_0\quad s.t.\quad\Vert y-Ax\Vert_2\leq \varepsilon
+\end{equation}
+与$ \ell_1 $范数松弛，也成为LASSO或基追踪
+\begin{equation*}\label{key}
+(p_{1}^{\epsilon}):\qquad \min_{x}\Vert x\Vert_1\quad s.t.\quad\Vert y-Ax\Vert_2^2\leq v
+\end{equation*}
+以及等价的拉格朗日形式
+\begin{equation}\label{key}
+(p_{1}^{\lambda}):\qquad \min_{x} \dfrac{1}{2}\Vert y-Ax\Vert_2^2 + \lambda \Vert x\Vert_1 \qquad
+\end{equation}
+
+其中$ x $为$ n $维未知稀疏信号，从统计学角度来说对应于线性回归中的稀疏向量，每一个系数$ x_i $表示第$ i $个输入或预测因子$ A_i $对输出$ y $的影响程度，$ y $为目标变量$ Y $的$ m $维观测向量。$ A $为$ m\times n $维设计矩阵，其第$ i $列为随机变量$ A_i $的$ m $维样本，即$ A $为$ m $个独立同分布的观测集合。
 
 
+在讨论稀疏复原问题的特定算法之前，需要指出问题$(p_{1}^{\epsilon})  $和问题$ (p_{1}^{\lambda}) $可以利用一般的优化技术求解。然而在实际应用中，收敛速度可能比较慢，而且解通常是非稀疏的。
 
-
+而且问题$ (p_{1}^{\lambda}) $可以转化为一个二次规划问题，从而可以应用一般的工具箱，如CVX对其进行求解。但该方法适用于小规模问题。一般的二次规划问题求解复杂度并不与问题规模成正比。因此，{\heiti 有必要挖掘稀疏复原问题的特定结构，研究求解问题$(p_{1}^{\epsilon})  $和问题$ (p_{1}^{\lambda}) $的特定方法，并将问题扩展到其他类型的目标函数与正则函数。}
 
 \section{一元阈值是正交设计的最优方法}
+在开始介绍求解上述问题的方法前，将先考虑正交设计矩阵的特殊情况。事实证明，当$\ell_0$ 与$\ell_1$范数优化问题分解为独立的一元问题时，其最优解可以通过非常简单的一元阈值过程得到。
 
+$ n $维正交标准矩阵满足$ A^T A =AA^T=I$，由正交矩阵$ A $定义的线性变换具有一个良好的性质：保持向量的$ \ell_2 $范数不变，即：
+$$  \Vert Ax \Vert_2^2 = (Ax)^T(Ax) =x^T(A^TA)x = x^Tx = \Vert x \Vert_2^2$$
 
+对于$  $
 
 \section{求解$ \ell_0 $范数最小化的算法}
 
