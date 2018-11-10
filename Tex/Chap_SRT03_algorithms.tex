@@ -28,7 +28,17 @@
 $ n $维正交标准矩阵满足$ A^T A =AA^T=I$，由正交矩阵$ A $定义的线性变换具有一个良好的性质：保持向量的$ \ell_2 $范数不变，即：
 $$  \Vert Ax \Vert_2^2 = (Ax)^T(Ax) =x^T(A^TA)x = x^Tx = \Vert x \Vert_2^2$$
 
-对于$  $
+对于$A^T$,具有同样的性质，因此可以得到
+$$  \Vert y-Ax \Vert_2^2 = \Vert A^T( y-Ax) \Vert_2^2 = \Vert \hat{x}-x \Vert_2^2 = \sum_{i=1}^n (
+\hat{x_i}-x_i)$$
+
+其中，当A为正交阵时，$ \hat{x} = A^T y $对应于普通最小二乘解，即：
+\begin{equation}\label{key}
+\hat{x} = \arg \min_x \: \Vert y-Ax\Vert^2
+\end{equation}
+
+接下来，将说明上述平方和损失函数如果极大简化$ \ell_0 $和$ \ell_1 $范数优化问题。
+
 
 \section{求解$ \ell_0 $范数最小化的算法}
 
