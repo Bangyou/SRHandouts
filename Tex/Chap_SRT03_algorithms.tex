@@ -32,7 +32,7 @@ $$  \Vert Ax \Vert_2^2 = (Ax)^T(Ax) =x^T(A^TA)x = x^Tx = \Vert x \Vert_2^2$$
 $$  \Vert y-Ax \Vert_2^2 = \Vert A^T( y-Ax) \Vert_2^2 = \Vert \hat{x}-x \Vert_2^2 = \sum_{i=1}^n (
 \hat{x_i}-x_i)$$
 
-其中，当A为正交阵时，$ \hat{x} = A^T y $对应于普通最小二乘解，即：
+其中，当A为正交阵时，$ \hat{x} = A^T y $对应于普通最小二乘解（OLS解），即：
 \begin{equation}\label{key}
 \hat{x} = \arg \min_x \: \Vert y-Ax\Vert^2
 \end{equation}
@@ -41,8 +41,23 @@ $$  \Vert y-Ax \Vert_2^2 = \Vert A^T( y-Ax) \Vert_2^2 = \Vert \hat{x}-x \Vert_2^
 
 
 \section{求解$ \ell_0 $范数最小化的算法}
+现在问题$ (p_{0}^{\epsilon}) $可以改写为：
+\begin{equation}\label{key}
+\min_{x}\Vert x\Vert_0\quad s.t. \quad  \sum_{i=1}^{n}(\hat{x}_i-x_i)^2\leq \varepsilon^2
+\end{equation}
 
-
+换句话说，我们正在寻找最稀疏解$ x^* $,即最小$ \ell_0 $范数解，该解与普通最小二乘解$ \hat{x}=A^Ty $的$ \ell_2 $范数距离不大于$ \epsilon $。通过选择选择$ \hat{x} $中k个最大（绝对值）坐标，并将其他坐标值设为0，可以很容易的构造这样的解。其中k为与$ \hat{x} $距离不大于$ \epsilon $的坐标最小数目，即使得解可行的坐标最小数目。该方法可以视为普通最小二乘法解$ \hat{x} $的一元硬阈值法。
+\begin{equation}\label{key}
+x_i^* = H(\hat{x}_i,\varepsilon) =
+\left\{\begin{array}{r@{\:,\quad}l}
+\hat{x}_i \quad &   |\hat{x}_i|\geq t(\varepsilon)\\
+0         \quad &   |\hat{x}_i| <   t(\varepsilon)
+\end{array} \right.
+\end{equation}
+其中，$ t(\varepsilon) $是阈值，小于$ {|\hat{x}_i|} $中第k个最大值，但大于第k+1个最大值。这里，将一元硬阈值运算表示为$ H(x,\varepsilon) $
 
 
 \section{用于$ \ell_1 $范数最小化的算法}
+
+
+
